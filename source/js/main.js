@@ -16,6 +16,9 @@ $(document).ready(function(){
 
     // Give slider arrows .slider-button class
     $('.slick-arrow').addClass('slider-button');
+
+
+    $("#commentForm").validate();
     
 });
 

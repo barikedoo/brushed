@@ -1,0 +1,37 @@
+.get-in-touch {
+    background: $light-grey;
+
+        @include section_header ();
+
+
+            &__content {
+                padding-top: 7%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            &__feedback {
+                width: 60%;
+
+                    input,textarea {
+                        width: 95%;
+                        font-size: 16px;
+                        background: $dark-grey;
+                        border: none;
+                        outline: none;
+                        resize: none;
+                        color: #fefefe;
+                        line-height: 30px;
+                        font-family: $main-250;
+                        text-transform: capitalize;
+                        padding-left: 10px;
+                    }
+
+                    input {
+                        border-bottom: 1px solid $light-grey;
+                    }
+            }
+
+
+}
