@@ -1,0 +1,55 @@
+.about {
+    background: $dark-grey;
+
+    @include section_header ();
+
+        &__team {
+            padding-top: 7%;
+            background: $dark-grey;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: center;
+
+                &__member {
+                    width: 21%;
+                    padding-right: 2%;
+
+                        img {
+                            width: 100%;
+                        }
+
+                            &__h3 {
+                                color: #fefefe;
+                                font-size: 24px;
+                                font-family: $main-250;
+                                padding-top: 7%;
+                                text-transform: capitalize;
+                            }
+
+                            &__p {
+                                padding-top: 4%;
+                                color: $text-grey;
+                                font-family: $main-400;
+                                
+                            }
+
+                            &__socials {
+                                padding-top: 5%;
+                                font-size: 16px;
+                                padding-bottom: 50%;
+
+                                        a {
+                                            padding-right: 4%;
+                                            color: $text-grey;
+
+                                                &:hover {
+                                                    color: $red;
+                                                }
+                                        }
+
+                            }
+                }
+        }
+
+}
