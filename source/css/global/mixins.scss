@@ -31,3 +31,29 @@
     }
 }
 
+@mixin section_header () {
+    
+    &__header {
+       text-align: center;
+       padding-top:6.8%;
+
+        &__h2 {
+            color:#fefefe;
+            font-size: 48px;
+            font-family: $main-400;
+            text-transform: capitalize;
+        }
+
+        &__p {
+            color:#fefefe;
+            font-size: 24px;
+            font-family: $main-250;
+            padding-top:2%;
+
+                span {
+                    color: $red;
+                }
+        }
+    }
+}
+

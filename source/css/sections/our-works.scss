@@ -1,0 +1,59 @@
+.our-works {
+    background: $light-grey;
+
+    @include section_header ();
+
+
+    &__content{
+        display: flex;
+        width: 100%;
+        padding-top: 6.7%;
+        padding-bottom: 7%;
+    }
+
+    &__filter {
+        width: 18%;
+        padding-left: 13%;
+        padding-top: 0.5%;
+
+            &__h3 {
+                color: #fefefe;
+                font-size: 24px;
+                font-family: $main-400;
+                text-transform:uppercase;
+                padding-bottom: 12px;
+            }
+
+            &__item {
+                color: $text-grey;
+                font-size: 16px;
+                font-family: $main-400;
+                text-transform: capitalize;
+                padding: 13px 0;
+
+                    &:hover {
+                        color: $red;
+                        cursor: pointer;
+                    }
+            }
+    }
+
+    &__works {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        // padding-left: 3%;
+
+            &__item {
+                width: 28%;
+                padding: 12px;
+
+                img {
+                    width: 100%;
+                }
+            }
+    }
+
+
+
+}
