@@ -26,3 +26,22 @@ html {
     opacity: 1!important;
     z-index: 100;
 }
+
+.slider-button {
+    border: none;
+    height: 50px;
+    width: 50px;
+    background: #26292e;
+    z-index: 100;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    outline: none;
+
+        &:hover {
+            background: $red;
+            cursor: pointer;
+        }
+
+}

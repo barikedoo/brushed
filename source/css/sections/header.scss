@@ -1,0 +1,41 @@
+.slider {
+    img {
+        width: 100%;
+    }
+
+    &__nav {
+        z-index: 100;
+        display: block;
+        background: $light-grey;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.slick-dots {
+    margin: 0 auto;
+
+    li { 
+        display: inline-block;
+        padding: 8px;
+        
+
+            button {
+                padding: 8px;
+                border-radius: 50%;
+                border: none;
+                background: #6e7074;
+                outline: none;
+
+                    &:hover {
+                        background: #ffffff;
+                        
+                    }
+
+                    &:focus {
+                        background: $red;
+                    }
+            }
+    }
+}
