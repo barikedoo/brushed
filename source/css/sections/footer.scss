@@ -1,0 +1,16 @@
+footer {
+    background: $dark-grey;
+
+        .copyright {
+            padding: 1.5%;
+            color: #fefefe;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-family: $main-250;
+            text-align: center;
+
+                    &__red {
+                        color: $red;
+                    }
+        }
+}

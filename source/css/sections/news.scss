@@ -3,7 +3,7 @@
     font-family: $main-250;
 
         &__post {
-            padding: 8% 0;
+            padding: 8% 0 5% 0;
             text-align: center;
 
                 &__p {
@@ -22,6 +22,16 @@
                 &__timeline {
                     padding-left: 10px;
                     font-style: italic;
+                    font-size: 16px;
+                }
+        }
+        &__twitter-icon {
+            text-align: center;
+            padding-bottom: 2%;
+            
+
+                a {
+                    color: $red;
                     font-size: 16px;
                 }
         }
