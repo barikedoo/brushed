@@ -1,5 +1,5 @@
 .get-in-touch {
-    background: $light-grey;
+    background: #2f3238;
 
         @include section_header ();
 
@@ -12,9 +12,9 @@
             }
 
             &__feedback {
-                width: 60%;
+                width: 57%;
 
-                    input,textarea {
+                    &__field {
                         width: 95%;
                         font-size: 16px;
                         background: $dark-grey;
@@ -26,12 +26,49 @@
                         font-family: $main-250;
                         text-transform: capitalize;
                         padding-left: 10px;
+                        line-height: 60px;
                     }
 
                     input {
                         border-bottom: 1px solid $light-grey;
                     }
+
+                    &__submit {
+                        margin-top: 30px;
+                        width: 170px;
+                        color: #ffffff;
+                        font-family: $main-400;
+                        font-size: 20px;
+                        line-height: 60px;
+                        border: none;
+                        background: #3c3f45;
+
+                            &:hover {
+                                background: $red;
+                            }
+
+                    }
             }
+
+            &__contacts {
+
+                    &__h3 {
+                        color: #fefefe;
+                        text-transform: uppercase;
+                        font-family: $main-250;
+                        padding-bottom: 20px;
+                        font-size: 24px;
+                    }
+
+                    &__span {
+                        display: block;
+                        font-size: 16px;
+                        color: $text-grey;
+                        font-family: $main-250;
+                    }
+            }
+            
+            
 
 
 }
