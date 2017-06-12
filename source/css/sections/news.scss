@@ -1,0 +1,28 @@
+.news {
+    background: $dark-grey;
+    font-family: $main-250;
+
+        &__post {
+            padding: 8% 0;
+            text-align: center;
+
+                &__p {
+                    color: $text-grey;
+                    font-size: 20px;
+                }
+
+                &__span-red {
+                    color: $red;
+                }
+
+                &__span-tag {
+                    color: #ffffff;
+                }
+
+                &__timeline {
+                    padding-left: 10px;
+                    font-style: italic;
+                    font-size: 16px;
+                }
+        }
+}
