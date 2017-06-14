@@ -4,9 +4,17 @@
     list-style-type: none;
 }
 
+body {
+    background: grey;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.main-content {
+    display: none;
 }
 
 a {
@@ -28,6 +36,10 @@ html {
     z-index: 100;
 }
 
+.error {
+    border-color: $red!important;
+}
+
 .slider-button {
     border: none;
     height: 50px;
@@ -35,10 +47,11 @@ html {
     background: #26292e;
     z-index: 100;
     color: #ffffff;
-    line-height: 50px;
     font-size: 24px;
     font-weight: 500;
     outline: none;
+
+
 
         &:hover {
             background: $red;
@@ -62,16 +75,22 @@ html {
 }
 
 .chevron.right:before {
-	left: 0;
+	left: -2px;
 	transform: rotate(45deg);
 }
 
 .chevron.bottom:before {
-	top: 0;
+	top: 25%;
+    left: 1%;
 	transform: rotate(135deg);
 }
 
 .chevron.left:before {
-	left: 0.25em;
+    right: -2px;
 	transform: rotate(-135deg);
+}
+
+.chevron.top:before {
+    top: 40%;
+    left: 1%;
 }
