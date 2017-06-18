@@ -42,6 +42,10 @@
             font-size: 48px;
             font-family: $main-400;
             text-transform: capitalize;
+
+                @media screen and (max-width:960px) {
+                    font-size: 32px;
+                }
         }
 
         &__p {
@@ -49,6 +53,10 @@
             font-size: 24px;
             font-family: $main-250;
             padding-top:2%;
+
+                @media screen and (max-width:960px) {
+                    font-size: 18px;
+                }
 
                 span {
                     color: $red;

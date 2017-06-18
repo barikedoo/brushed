@@ -5,6 +5,10 @@
         &__items {
             padding: 6% 0;
 
+                @media screen and (max-width:540px) {
+                    padding: 2%;
+                }
+
                 &__item {
                     display: inline-block;
                     width: 70px;
@@ -14,6 +18,18 @@
                     line-height: 70px;
                     background: $dark-grey;
                     margin: 0 15px;
+
+                        @media screen and (max-width:540px) {
+                            margin: 0 2%;
+                        }
+
+                        @media screen and (max-width:540px) {
+                            margin: 0 2%;
+                            width: 45px;
+                            height: 45px;
+                            line-height: 45px;
+                            font-size: 26px;
+                        }
 
                         a {
                         color: $text-grey;  
